@@ -111,7 +111,7 @@ function CaseStudyItem({ item, isOpen, onToggle }) {
             {item.title}
           </h3>
 
-          <p className="text-lg leading-8 text-gray-600 md:text-2xl">
+          <p className="mt-3 text-lg leading-8 text-gray-600 md:text-2xl">
             {item.subtitle}
           </p>
         </div>

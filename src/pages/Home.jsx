@@ -114,7 +114,7 @@ export default function Home() {
 
           <div className="w-full">
             <img
-              src="/hero-wide.png"
+              src="/hero-neutral.png"
               alt="hero"
               className="block h-auto w-full object-cover"
             />

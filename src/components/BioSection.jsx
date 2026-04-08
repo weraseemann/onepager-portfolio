@@ -7,7 +7,7 @@ const timeline = [
   {
     year: "Oct 2025 - now",
     title: "Master Studies: Web Development & IT Solutions",
-    text: "Mastering my knowledge at Kufstein University of Applied stidies",
+    text: "Mastering my knowledge at Kufstein University of Applied Sciences",
   },
     {
     year: "Oct 2023 - Jan 2026",
@@ -48,7 +48,7 @@ export default function BioSection() {
               Professional goals
             </h2>
 
-            <p className="mt-4 text-lg leading-8 text-gray-600 md:text-xl">
+            <p className="mt-6 text-lg leading-8 text-gray-600 md:text-xl">
                <ul className="mt-4 space-y-3 text-lg text-gray-600 md:text-xl">
                     {[
                         "Securing a full-time role as a Full-Stack Web Developer",
@@ -58,7 +58,7 @@ export default function BioSection() {
                         "Continuously honing my skills",
                     ].map((goal, i) => (
                         <li key={i} className="flex items-center gap-3">
-                        <input type="checkbox"  checked readOnly className="mt-1 h-5 w-5 accent-primary" />
+                        <input type="checkbox"  checked readOnly className="mt-1 h-5 w-5 accent-primary/90" />
                         {goal}
                         </li>
                     ))}
@@ -67,7 +67,7 @@ export default function BioSection() {
           </div>
 
           {/* RIGHT SIDE*/}
-          <div className="space-y-5 ">
+          <div className="space-y-6 ">
             {timeline.map((item) => (
               <div
                 key={item.year}
