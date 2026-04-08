@@ -216,8 +216,8 @@ export default function CaseStudyPreview() {
             <p className="text-sm uppercase tracking-[0.22em] text-primary">
               PROJECTS
             </p>
-          <h2 className="text-5xl font-medium md:text-7xl">Discover other Projects</h2>
-          <p className="mt-4 text-lg leading-8 text-gray-600 md:text-2xl">
+          <h2 className="mt-4 text-5xl font-medium md:text-7xl">Discover other Projects</h2>
+          <p className="mt-6 text-lg leading-8 text-gray-600 md:text-2xl">
             A closer look at selected projects, the problems behind them, and
             the solutions I built.
           </p>

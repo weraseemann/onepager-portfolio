@@ -140,12 +140,9 @@ export default function Home() {
               maintainable web solutions. I build accessible interfaces and enjoy
               turning complex problems into simple, intuitive experiences.
             </p> */}
-            <p className="mt-6 text-lg leading-8 text-gray-600 md:text-xl">
+            <p className="mt-6 text-lg leading-8 text-gray-600 md:text-xl max-w-3xl ">
               I am Wera Seemann, a frontend developer focused on creating clean,
               responsive, and user-friendly digital experiences.
-            </p>
-
-             <p className="text-lg leading-8 text-gray-600 md:text-xl">
               With a background in marketing and logistics, I bring structure,
               clarity, and strong attention to user experience in every project.
             </p>

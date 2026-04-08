@@ -16,15 +16,15 @@ export default function CTASection() {
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">
           
-          <a
+          {/* <a
             href="tel:+4917622895918"
             className="flex items-center gap-2 border border-primary px-6 py-3 rounded-xl font-semibold hover:bg-white hover:text-primary transition"
           >
            <AiFillPhone />+49 176 228 959 18
-          </a>
+          </a> */}
 
           <a
-            href="mailto:wera.seemann@gmsil.com"
+            href="mailto:wera.seemann@gmail.com"
             className="flex items-center gap-2 border border-primary px-6 py-3 rounded-xl font-semibold hover:bg-white hover:text-primary transition"
           >
             <AiFillMail />wera.seemann@gmail.com
