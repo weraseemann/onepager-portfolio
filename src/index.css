@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mea+Culpa&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    margin: 0;
+  }
+}
+.shine-text {
+  display: inline-block;
+
+  /* base text color + lighter sweep at 45deg */
+  background-image: linear-gradient(
+    45deg,
+    #4b5563 0%,
+    #4b5563 38%,
+    #f5f111 50%,
+    #4b5563 62%,
+    #4b5563 100%
+  );
+  /* #f5f111 50%, #66CCFF, #00FFFF, #5AC8FA */
+
+  background-size: 250% 100%;
+  background-position: -150% 0;
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  animation: shineSweep 30s linear infinite;
+
+  /* soft glow */
+  filter: drop-shadow(0 0 10px rgba(243, 244, 246, 0.18));
+}
+
+@keyframes shineSweep {
+  0% {
+    background-position: -150% 0;
+  }
+  100% {
+    background-position: 150% 0;
+  }
+}
