@@ -67,11 +67,12 @@ export default function BioSection() {
           </div>
 
           {/* RIGHT SIDE*/}
-          <div className="space-y-6 ">
+          <div className="space-y-6 mt-32">
             {timeline.map((item) => (
               <div
                 key={item.year}
-                className="rounded-[28px]  border border-gray-200 bg-[#f5f5f7] p-6 shadow-sm md:p-7"
+                //className="rounded-[28px]  border border-gray-200 bg-[#f5f5f7] p-6 shadow-sm md:p-7"
+                className="rounded-[28px] border border-gray-200 bg-gray-50 p-6 shadow-sm md:p-7"
               >
                 <div className="gap-3 md:flex-row md:gap-6">
                   <div className="mb-6 min-w-[60px] text-sm font-medium uppercase tracking-[0.18em] text-gray-400">

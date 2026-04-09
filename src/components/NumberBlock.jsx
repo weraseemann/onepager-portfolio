@@ -26,13 +26,14 @@ export default function NumbersBlock() {
             </p>
             </div>
       <div className="mx-auto max-w-[800px] px-4">
-        <div className="grid gap-4 md:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-2">
           {stats.map((item) => (
             <div
               key={item.label}
-              className="rounded-2xl border p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+              //className="rounded-2xl border p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+              className="rounded-2xl p-6"
             >
-              <div className="text-5xl font-medium tracking-tight text-primary md:text-6xl">
+              <div className="text-5xl font-medium tracking-tight text-primary md:text-8xl">
                 {item.value}
               </div>
 
