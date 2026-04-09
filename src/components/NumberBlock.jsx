@@ -12,8 +12,8 @@ const stats = [
     label: "Responsive Design",
   },
    {
-    value: "3+",
-    label: "Fluent: English, German, Russian Beginner: Spanisch",
+    value: "10+",
+    label: "Projects",
   },
 ];
 
