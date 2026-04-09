@@ -12,7 +12,7 @@ const stats = [
     label: "Responsive Design",
   },
    {
-    value: "10+",
+    value: "8+",
     label: "Projects",
   },
 ];
