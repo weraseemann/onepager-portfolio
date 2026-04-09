@@ -55,7 +55,7 @@ export default function BioSection() {
                         "Building scalable e-commerce and SaaS applications",
                         "Crafting seamless user experiences",
                         "Developing robust backend systems",
-                        "Continuously honing my skills",
+                        "Continuously developing my skills",
                     ].map((goal, i) => (
                         <li key={i} className="flex items-center gap-3">
                         <input type="checkbox"  checked readOnly className="mt-1 h-5 w-5 accent-primary/90" />
