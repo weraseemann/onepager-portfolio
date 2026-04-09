@@ -200,7 +200,10 @@ export default function Home() {
                 placeholder="Message"
                 name="message"
               />
-              <button className="bg-black/70 text-primary px-5 py-3 rounded-full hover:bg-black">
+              <button 
+              //className="bg-black/70 text-primary px-5 py-3 rounded-full hover:bg-black"
+              className="bg-primary text-black px-5 py-3 rounded-full hover:opacity-90"
+                        >
                 Send
               </button>
             </form>

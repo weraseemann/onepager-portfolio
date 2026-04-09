@@ -177,7 +177,8 @@ export default function FeaturedProjects() {
                     <a
                       href={project.live}
                       target="_blank"
-                      className="bg-black/70 text-primary px-5 py-3 rounded-full hover:bg-black"
+                      //className="bg-black/70 text-primary px-5 py-3 rounded-full hover:bg-black"
+                      className="border  border-primary/50 bg-primary/10 px-5 py-3 rounded-full hover:bg-primary/30"
                     >
                       Live
                     </a>
@@ -185,7 +186,8 @@ export default function FeaturedProjects() {
                     <a
                       href={project.github}
                       target="_blank"
-                      className="bg-primary/50 border px-5 py-3 rounded-full hover:bg-primary"
+                      //className="bg-primary/50 border px-5 py-3 rounded-full hover:bg-primary"
+                      className="border  border-primary/50 bg-primary/10 px-5 py-3 rounded-full hover:bg-primary/30"
                     >
                       GitHub
                     </a>
