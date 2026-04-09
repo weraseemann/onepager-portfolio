@@ -1,7 +1,7 @@
 const stats = [
   {
-    value: "3+",
-    label: "Selected Projects",
+    value: "10+",
+    label: "Modern tools used: React, VUE, React Native, Angular, Tailwind, TypeScript, MongoDB, AWS etc.",
   },
   {
     value: "3+",
