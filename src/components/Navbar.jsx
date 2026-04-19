@@ -80,7 +80,7 @@ export default function Navbar() {
         scrolled ? "shadow-[0_1px_3px_rgba(0,0,0,0.08)]" : "shadow-none",
       ].join(" ")}
     >
-      <nav className="mx-auto flex max-w-[1200px] items-center justify-between px-4 py-4">
+      <nav className="mx-auto flex max-w items-center justify-between px-4 py-4">
         <button
           type="button"
           onClick={() => onNavClick("/")}
