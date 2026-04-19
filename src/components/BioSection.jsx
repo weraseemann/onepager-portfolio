@@ -58,8 +58,8 @@ export default function BioSection() {
 
             <p className="mt-6 text-lg leading-8 text-gray-600 md:text-xl">
                <ul className="mt-4 space-y-3 text-lg text-gray-600 md:text-xl">
-                    {goals.map((goal, i) => (
-                        <li key={i} className="flex items-center gap-3">
+                    {goals.map((goal) => (
+                        <li key={goal} className="flex items-center gap-3">
                         <input type="checkbox"  checked readOnly className="mt-1 h-5 w-5 accent-primary/90" />
                         {goal}
                         </li>
