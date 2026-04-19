@@ -22,6 +22,14 @@ const timeline = [
 
 ];
 
+const goals = [
+  "Securing a full-time role as a Full-Stack Web Developer",
+  "Building scalable e-commerce and SaaS applications",
+  "Crafting seamless user experiences",
+  "Developing robust backend systems",
+  "Continuously developing my skills",
+];
+
 export default function BioSection() {
   return (
     <section id="bio" className="scroll-mt-24 py-24 bg-white">
@@ -50,13 +58,7 @@ export default function BioSection() {
 
             <p className="mt-6 text-lg leading-8 text-gray-600 md:text-xl">
                <ul className="mt-4 space-y-3 text-lg text-gray-600 md:text-xl">
-                    {[
-                        "Securing a full-time role as a Full-Stack Web Developer",
-                        "Building scalable e-commerce and SaaS applications",
-                        "Crafting seamless user experiences",
-                        "Developing robust backend systems",
-                        "Continuously developing my skills",
-                    ].map((goal, i) => (
+                    {goals.map((goal, i) => (
                         <li key={i} className="flex items-center gap-3">
                         <input type="checkbox"  checked readOnly className="mt-1 h-5 w-5 accent-primary/90" />
                         {goal}
