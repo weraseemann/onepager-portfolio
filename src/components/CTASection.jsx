@@ -7,11 +7,11 @@ export default function CTASection() {
       <div className="max-w-6xl mx-auto text-center">
         
         <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-8xl font-bold mb-6">
-  Let’s build something great together.
+  Let's build something great together.
 </h2>
 
         <p className="text-lg md:text-xl opacity-90 mb-10">
-          Have a project in mind? Get in touch — I’d love to hear from you.
+          Have a project in mind? Get in touch — I'd love to hear from you.
         </p>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-6">

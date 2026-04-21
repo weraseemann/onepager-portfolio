@@ -26,7 +26,7 @@ const goals = [
   "Securing a full-time role as a Full-Stack Web Developer",
   "Building scalable e-commerce and SaaS applications",
   "Crafting seamless user experiences",
-  "Developing robust backend systems",
+  "Focus on performance & accessibility",
   "Continuously developing my skills",
 ];
 
@@ -49,7 +49,7 @@ export default function BioSection() {
             
             <p className="mt-6 text-lg leading-8 text-gray-600 md:text-xl">
               In November 2024 I successfully completed the Full-Stack Web Development course, marking a significant milestone in my journey as a developer. I also hold a Diploma in Business Administration with a focus on Logistics and Marketing.
-              As an explorer by nature, I have a curious and ever-learning mindset, always ready to dive into new challenges. Surrounded by inspiring, multicultural people, I’ve cultivated a unique blend of creative thinking and a logistics-oriented mindset. Now equipped with robust programming skills, I’m actively designing a life that aligns with my aspirations—where innovation, problem-solving, and creativity converge.
+              As an explorer by nature, I have a curious and ever-learning mindset, always ready to dive into new challenges. Surrounded by inspiring, multicultural people, I've cultivated a unique blend of creative thinking and a logistics-oriented mindset. Now equipped with robust programming skills, I'm actively designing a life that aligns with my aspirations—where innovation, problem-solving, and creativity converge.
             </p>
 
             <h2 className="mt-40 text-5xl font-medium tracking-tight text-gray-900 md:text-7xl">

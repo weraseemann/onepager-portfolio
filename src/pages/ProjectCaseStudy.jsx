@@ -59,11 +59,11 @@ const projects = [
     challenges: [
       {
         title: "Connecting backend and frontend correctly",
-        text: "One of the biggest challenges was making sure the client-side matched the server-side endpoints and attribute names exactly. A small naming mismatch like using ‘Favourite’ instead of ‘favorite’, or inconsistent capitalization, caused frustrating bugs. Solving these issues gave me a much stronger understanding of how both sides of the application work together.",
+        text: "One of the biggest challenges was making sure the client-side matched the server-side endpoints and attribute names exactly. A small naming mismatch like using 'Favourite' instead of 'favorite', or inconsistent capitalization, caused frustrating bugs. Solving these issues gave me a much stronger understanding of how both sides of the application work together.",
       },
       {
         title: "Fixing React key handling in mapped movie cards",
-        text: "While building the MainView, MovieCard, and MovieView components in JSX, I initially passed the wrong key in the mapped movie list. I used key={movie.id} instead of key={movie._id}, which led to rendering issues. Correcting that helped me better understand React’s rendering behavior and the importance of stable keys.",
+        text: "While building the MainView, MovieCard, and MovieView components in JSX, I initially passed the wrong key in the mapped movie list. I used key={movie.id} instead of key={movie._id}, which led to rendering issues. Correcting that helped me better understand React's rendering behavior and the importance of stable keys.",
       },
       {
         title: "Conditionally showing the logout button",

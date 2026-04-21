@@ -46,7 +46,7 @@ export default function NightflixCaseStudy() {
   const challenges = [
     {
       title: "Backend and frontend connection",
-      text: "The biggest challenge was connecting the server-side and client-side using the correct endpoints and attribute names. A small naming mismatch like using ‘Favourite’ instead of ‘favorite’ caused unnecessary bugs, but it also deepened my understanding of how the whole application fits together.",
+      text: "The biggest challenge was connecting the server-side and client-side using the correct endpoints and attribute names. A small naming mismatch like using 'Favourite' instead of 'favorite' caused unnecessary bugs, but it also deepened my understanding of how the whole application fits together.",
     },
     {
       title: "React component structure",

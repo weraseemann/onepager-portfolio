@@ -51,7 +51,7 @@ export default function MyMovieApiCaseStudy() {
   const processSteps = [
     {
       title: "Planning and preparation",
-      text: "I began by writing user stories based on the application’s core features. These stories helped define the project scope and user requirements before setting up the repository, project structure, and first GitHub commit.",
+      text: "I began by writing user stories based on the application's core features. These stories helped define the project scope and user requirements before setting up the repository, project structure, and first GitHub commit.",
     },
     {
       title: "Node.js foundations",
